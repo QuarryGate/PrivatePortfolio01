@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\채석포트폴리오\\eVanClass\\eVan_Project_425\\Source\\eVan_Engine\\eVan_Engine.Build.cs",
+		"D:\\채석포트폴리오\\eVanClass\\eVan_Project_425\\Source\\eVan_Engine.Target.cs",
+		"D:\\채석포트폴리오\\eVanClass\\eVan_Project_425\\Source\\eVan_EngineEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

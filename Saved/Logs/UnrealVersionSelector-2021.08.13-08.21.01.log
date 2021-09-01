@@ -1,0 +1,48 @@
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.10.31410.357, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037 (Version=14.29.30038)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.16299.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.16299.0 at C:\Program Files (x86)\Windows Kits\10
+UnrealBuildTool.Main: ERROR: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main: BuildException: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main:    위치: UnrealBuildTool.VCEnvironment.SetupEnvironment(UnrealTargetPlatform Platform)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.VCEnvironment..ctor(UnrealTargetPlatform Platform, WindowsCompiler Compiler, DirectoryReference CompilerDir, VersionNumber CompilerVersion, WindowsArchitecture Architecture, WindowsCompiler ToolChain, DirectoryReference ToolChainDir, VersionNumber ToolChainVersion, DirectoryReference WindowsSdkDir, VersionNumber WindowsSdkVersion)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.VCEnvironment.Create(WindowsCompiler Compiler, UnrealTargetPlatform Platform, WindowsArchitecture Architecture, String CompilerVersion, String WindowsSdkVersion, String SuppliedSdkDirectoryForVersion)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.WindowsPlatform.CreateVCEnvironment(TargetRules Target)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.WindowsPlatform.ValidateTarget(TargetRules Target)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesAssembly.CreateTargetRulesInstance(String TypeName, TargetInfo TargetInfo)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, String Architecture, FileReference ProjectFile, CommandLineArguments Arguments)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments)
+UnrealBuildTool.Main:    위치: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.040) <unknown>
+Timeline.Print: [ 0.040](+0.048) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.089](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.089](+0.143) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.089          [ 0.000](+0.124) Initializing InstalledPlatformInfo
+Timeline.Print:   0.214          [ 0.125](+0.000) Querying types
+Timeline.Print:   0.215          [ 0.126](+0.001) XXXPlatformFactory
+Timeline.Print:   0.216          [ 0.127](+0.000) MacPlatformFactory
+Timeline.Print:   0.216          [ 0.127](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.216          [ 0.127](+0.000) AndroidPlatformFactory
+Timeline.Print:   0.216          [ 0.127](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.216          [ 0.127](+0.000) IOSPlatformFactory
+Timeline.Print:   0.216          [ 0.127](+0.000) LinuxPlatformFactory
+Timeline.Print:   0.217          [ 0.127](+0.000) LuminPlatformFactory
+Timeline.Print:   0.217          [ 0.127](+0.015) WindowsPlatformFactory
+Timeline.Print: [ 0.232](+5.578) <unknown>
+Timeline.Print: [ 5.811](+0.001) Finding engine modules
+Timeline.Print: [ 5.813](+0.002) Finding plugin modules
+Timeline.Print: [ 5.815](+0.246) <unknown>
+Timeline.Print: [ 6.061](+0.000) Finding program modules
+Timeline.Print: [ 6.061](+0.000) Finding program targets
+Timeline.Print: [ 6.061](+0.099) <unknown>
+Timeline.Print: [ 6.161](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 6.163]

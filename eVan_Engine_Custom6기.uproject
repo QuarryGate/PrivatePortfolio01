@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{3A7FBD2C-428B-2720-D2B2-348B37A4455F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "eVan_Engine",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "KCF_IBPL",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e58ef740746c4640aa245088cde95b7f"
+		},
+		{
+			"Name": "ParticleNotiGizmo",
+			"Enabled": true
+		}
+	]
+}
